@@ -1,0 +1,140 @@
+body{
+  background-color: #eee;
+}
+.bg-teal{
+  background-color: #20c997;
+}
+.border-teal{
+  border-color: #20c997;
+}
+
+/* start layout */
+
+.layout{
+  background-color: #1abc9c !important;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.layout .navbar-brand{
+  color: #ffc107;
+  font-weight: 700;
+}
+.layout .nav-item a{
+  color: #ffc107;
+}
+.layout .sub-item a{
+  color: #ffc107;
+  padding: 4px 0 4px 10px;
+}
+.layout .nav-item a:hover{
+  text-decoration: none;
+}
+.left-side {
+  padding: 10px 0;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  position: relative;
+}
+.left-side h4{
+  color: #ffc107;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.left-side ul{
+    background-color: #1abc9c;
+    margin-bottom: 30px;
+}
+.left-side .side-item{
+  font-weight: 600;
+  margin: 10px 0;
+  border-bottom: 1px solid #eee;
+  padding: 5px 10px;
+  -webkit-transition:all .3s ease-in-out;
+  -moz-transition:all .3s ease-in-out;
+  -o-transition:all .3s ease-in-out;
+  transition:all .3s ease-in-out;
+}
+.left-side .side-item:last-of-type{
+  border: none;
+}
+.left-side .side-item a{
+  color: #fff;
+}
+.left-side .side-item:hover{
+  padding-left: 15px;
+  background-color: #ffc107;
+  color:#fff;
+  cursor: pointer;
+}
+
+/* end layout */
+
+/* start Channel index */
+.channel{
+  padding: 20px;
+
+}
+.channel .table td,
+.channel .table th{
+  padding: 5px;
+}
+.channel .card-heading > h3{
+  color: #1abc9c;
+}
+.channel .thead-green{
+  background-color: #1abc9c;
+  color:#fff;
+}
+
+/* End Channel index */
+.forum .card{
+  margin-bottom: 20px;
+}
+.forum a{
+  margin-top: 14px;
+}
+.forum .pagination {
+  justify-content: center;
+}
+.forum .pagination li{
+  background-color: #fff;
+  padding: 4px 10px;
+  border: 1px solid #ddd;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.forum .pagination a:hover{
+  text-decoration: none;
+}
+.forum .pagination li:hover,
+.forum .pagination .active{
+  background-color: #1abc9c;
+}
+.forum .pagination li:hover a,
+.forum .pagination .active span{
+  color: #fff;
+}
+/* start discussion */
+.discussion .card{
+  margin-bottom: 40px;
+}
+.discussion a{
+  margin-top: 15px;
+}
+/* end discussion */
+
+/*start best answer */
+.best-answer-hr{
+  margin-top: 30px;
+  background-color: #ddd;
+}
+.best-answer{
+  color: #1abc9c;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px 0;
+}
